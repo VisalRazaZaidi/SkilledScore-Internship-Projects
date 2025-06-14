@@ -1,6 +1,4 @@
-
 # Skilled Score Internship Projects
-
 
 ## Project 1: Develop a Portfolio Website for a Freelancer
 
