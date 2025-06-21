@@ -107,7 +107,7 @@ function UpdatePost() {
                      />
                     <Select value={formData.category} onChange={(e)=>setFormData({...formData, category: e.target.value})}>
                         <option value="uncategorized">Select a category</option>
-                        <option value="javascript">Javascript</option>
+                        <option value="Wellness & Personal Growth">Wellness & Personal Growth</option>
                         <option value="reactjs">React.js</option>
                         <option value="nextjs">Next.js</option>
                     </Select>
