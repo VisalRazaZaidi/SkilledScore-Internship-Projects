@@ -1,4 +1,4 @@
-# Product Listing Page
+# E-Commerce Product Listing Page
 Preview Link : https://products-listing-page.netlify.app/
 
 ## Run Locally
