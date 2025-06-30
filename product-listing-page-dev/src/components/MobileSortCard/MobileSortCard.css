@@ -1,0 +1,78 @@
+.mobile-sort-card {
+	width: 100%;
+	z-index: 3;
+	position: fixed;
+	bottom: 0px;
+	padding: 1rem 0rem;
+	box-sizing: border-box;
+	height: max-content;
+	background-color: var(--color-white);
+	border-top: 1px solid var(--color-medium--light-border);
+}
+
+.close-card {
+	cursor: pointer;
+	width: 2.4rem;
+	height: 2.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	border-radius: 50%;
+	margin-left: auto;
+	margin-right: 10px;
+	background-color: #d1cfcf;
+}
+
+.close-card:hover {
+	background-color: #a1a0a0;
+}
+
+.mobile-sort-card-header:first-child{
+    font-weight: 500;
+}
+
+
+.mobile-sort-card-body,.mobile-sort-card-header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.mobile-sort-card-header{
+    padding: 0px 20px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid var(--color-light-border);
+
+}
+
+.mobile-sort-card-body{
+    padding-top: 1rem;
+}
+
+.mobile-sort-card-body:last-child{
+    padding-bottom: 1rem;
+}
+
+.mobile-sort {
+	display: none;
+}
+
+/* @media queries */
+
+@media screen and (max-width: 480px) {
+	.mobile-sort {
+		display: revert;
+        position: sticky;
+        top: 3.5rem;
+        z-index: 6;
+        background-color: var(--color-white);
+        border-bottom: 1px solid var(--color-light-border)
+	}
+}
+
+@media screen and (min-width: 481px) {
+	.mobile-sort,
+	.mobile-sort-card {
+		display: none;
+	}
+}
