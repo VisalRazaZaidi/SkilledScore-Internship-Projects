@@ -5,3 +5,7 @@
 - Demo link: https://freelancerportfoliowebsite.vercel.app/
 - Repo Link: https://shorturl.at/B3aF5
 
+## Project 2: Blog Platform with Content Managment
+
+- Demo link: https://freelancerportfoliowebsite.vercel.app/
+- Repo Link: https://shorturl.at/B3aF5
