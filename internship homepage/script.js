@@ -2,7 +2,7 @@ const projects = [
     {
       name: "Develop a Portfolio Website for a Freelancer",
       description: "Create a responsive portfolio website for a fictional freelancer, 'Alex Carter' to showcase their projects, skills, and contact information, using HTML, CSS, and JavaScript with a modern front-end framework like React.",
-      live: "https://freelancerportfoliowebsite.vercel.app/",
+      live: "https://freelancer-portfolio-website-tawny.vercel.app/",
       github: "https://shorturl.at/B3aF5"
     },
     {
