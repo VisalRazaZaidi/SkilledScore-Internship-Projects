@@ -14,8 +14,8 @@ const projects = [
     {
       name: "Blog Website with CMS",
       description: "Build a blog website with a content management system (CMS) that allows users to create, edit, and delete blog posts, using HTML, CSS, JavaScript, and a backend technology Node.js.",
-      github: "https://github.com/yourusername/invoice-dashboard",
-      live: "https://invoicedash.vercel.app"
+      github: "https://shorturl.at/uqb4v",
+      live: "https://blog-website-with-cms.vercel.app/"
     },
     // Add more projects below
   ];
