@@ -6,7 +6,7 @@ Preview Link : https://e-commerce-product-listing-page-seven.vercel.app/
 Clone the project
 
 ```bash
-  git clone https://github.com/Digambar1411/product-listing-page.git
+  git clone https://github.com/VisalRazaZaidi/SkilledScore-Internship-Projects.git
 ```
 
 ## Features Available.
