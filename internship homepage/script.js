@@ -8,8 +8,8 @@ const projects = [
     {
       name: "E-commerce Product Listing Page",
       description: "Develop a product listing page for an e-commerce website, featuring product images, descriptions, and a shopping cart functionality using HTML, CSS, and JavaScript.",
-      github: "https://e-commerce-product-listing-page-seven.vercel.app/",
-      live: "https://shorturl.at/LJitM"
+      github: "https://shorturl.at/LJitM",
+      live: "https://e-commerce-product-listing-page-seven.vercel.app/"
     },
     {
       name: "Blog Website with CMS",
