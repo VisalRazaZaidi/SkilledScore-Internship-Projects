@@ -17,6 +17,12 @@ const projects = [
       github: "https://shorturl.at/uqb4v",
       live: "https://blog-website-with-cms.vercel.app/"
     },
+    {
+      name: "Task Flow - Task Management Dashboard with Authentication",
+      description: "Build a task management dashboard for a fictional startup, 'TaskFlow', allowing users to create, edit, and delete tasks, with user authentication using Firebase and a front-end in Vue.js.",
+      github: "https://shorturl.at/XSI0g",
+      live: "https://todo-list-df2be.web.app/"
+    },
     // Add more projects below
   ];
   
