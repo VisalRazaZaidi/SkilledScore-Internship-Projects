@@ -1,25 +1,40 @@
 import { HttpClient, HttpHeaders, HttpParams } from '@angular/common/http';
 import { Injectable } from '@angular/core';
+import { Observable } from 'rxjs';
 import { environment } from '../../environments/environment';
-import { WeatherData } from '../models/weather.model';
+import { CurrentWeather } from '../models/weather.model';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class Weather {
-  
-  constructor (private http: HttpClient) {}
+  constructor(private http: HttpClient) {}
 
-  getWeatherData(latitude: string, longitude: string, lang: string = 'EN') {
-    return this.http.get<WeatherData>(environment.weatherApiBaseUrl, {
-      headers: new HttpHeaders()
-        .set(environment.XRapidAPIHostHeaderName, environment.XRapidAPIHostHeaderValue)
-        .set(environment.XRapidAPIKeyHeaderName, environment.XRapidAPIKeyHeaderValue),
-      params: new HttpParams()
-        .set('latitude', latitude)
-        .set('longitude', longitude)
-        .set('lang', lang)
+  getCurrentWeather(
+    lat: string,
+    lon: string,
+    lang: string = 'EN'
+  ): Observable<any> {
+    const params = new HttpParams()
+      .set('lat', lat)
+      .set('lon', lon)
+      .set('appid', environment.openWeatherAPIKey)
+      .set('units', 'metric') // for Celsius
+      .set('lang', lang);
+
+    return this.http.get<CurrentWeather>(environment.weatherApiBaseUrl, {
+      params,
     });
   }
 
+  getCurrentWeatherByCity(city: string): Observable<CurrentWeather> {
+    const params = new HttpParams()
+      .set('q', city)
+      .set('appid', environment.openWeatherAPIKey)
+      .set('units', 'metric');
+
+    return this.http.get<CurrentWeather>(environment.weatherApiBaseUrl, {
+      params,
+    });
+  }
 }

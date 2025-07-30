@@ -138,3 +138,39 @@ body {
     color: var(--white);
     font-size: 20px;
 }
+
+.search{
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.search input{
+    background-color: var(--shadow-light);
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    padding: 1em;
+    color: var(--grey-1);
+    font-size: 0.8em;
+    text-align: center;
+}
+
+.search button {
+  margin-left: 0.5em;
+  padding: 1em 2em;
+  font-size: 0.8em;
+  font-weight: bold;
+  color: var(--white-1);
+  background-color: var(--yellow-1);
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 2px 2px 8px var(--shadow-dark);
+  transition: all 0.3s ease-in-out;
+}
+
+.search button:hover {
+  background-color: #e0b93a; /* slightly darker yellow on hover */
+  transform: translateY(-2px);
+  box-shadow: 4px 4px 12px var(--shadow-dark);
+}
