@@ -1,6 +1,6 @@
 export const environment = {
   production: false,
-  weatherApiBaseUrl:'https://open-weather13.p.rapidapi.com',
+  weatherApiBaseUrl:'https://open-weather13.p.rapidapi.com/fivedaysforcast?latitude=40.730610&longitude=-73.935242&lang=EN',
   XRapidAPIHostHeaderName: 'X-RapidAPI-Host',
   XRapidAPIHostHeaderValue: 'open-weather13.p.rapidapi.com',
   XRapidAPIKeyHeaderName: 'X-RapidAPI-Key',
