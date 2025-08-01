@@ -12,7 +12,7 @@
 
 ## Project 3: Blog Platform with Content Managment
 
-- Demo link: https://blog-website-with-cms.vercel.app/
+- Demo link: https://life-vibe-magazine.vercel.app/
 - Repo Link: https://shorturl.at/uqb4v
 
 ## Project 4: Taskflow Task Management Dashboard with Authentication
