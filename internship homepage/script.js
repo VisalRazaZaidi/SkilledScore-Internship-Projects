@@ -23,6 +23,12 @@ const projects = [
       github: "https://shorturl.at/XSI0g",
       live: "https://todo-list-df2be.web.app/"
     },
+    {
+      name: "WanderEasy - Weather Forecast Web App Using Angular and Public wather API",
+      description: "Create a weather forecast web application that provides real-time weather updates and forecasts for different locations, using Angular and a public weather API.",
+      github: "https://shorturl.at/3ewuw",
+      live: "https://wandereasy.vercel.app/"
+    },
     // Add more projects below
   ];
   
