@@ -19,3 +19,8 @@
 
 - Demo link: https://todo-list-df2be.web.app/
 - Repo Link: https://shorturl.at/XSI0g
+
+## Project 5: WanderEasy Angular base Weather App
+
+- Demo link: https://wandereasy.vercel.app/
+- Repo Link: https://shorturl.at/3ewuw
